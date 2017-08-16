@@ -1,0 +1,10 @@
+/home/ricardo/Git/omicron/omicron.web/bin/Debug/netcoreapp2.0/omicron.web.deps.json
+/home/ricardo/Git/omicron/omicron.web/bin/Debug/netcoreapp2.0/omicron.web.runtimeconfig.json
+/home/ricardo/Git/omicron/omicron.web/bin/Debug/netcoreapp2.0/omicron.web.runtimeconfig.dev.json
+/home/ricardo/Git/omicron/omicron.web/bin/Debug/netcoreapp2.0/omicron.web.dll
+/home/ricardo/Git/omicron/omicron.web/bin/Debug/netcoreapp2.0/omicron.web.pdb
+/home/ricardo/Git/omicron/omicron.web/obj/Debug/netcoreapp2.0/omicron.web.csproj.CoreCompileInputs.cache
+/home/ricardo/Git/omicron/omicron.web/obj/Debug/netcoreapp2.0/omicron.web.AssemblyInfoInputs.cache
+/home/ricardo/Git/omicron/omicron.web/obj/Debug/netcoreapp2.0/omicron.web.AssemblyInfo.cs
+/home/ricardo/Git/omicron/omicron.web/obj/Debug/netcoreapp2.0/omicron.web.dll
+/home/ricardo/Git/omicron/omicron.web/obj/Debug/netcoreapp2.0/omicron.web.pdb
