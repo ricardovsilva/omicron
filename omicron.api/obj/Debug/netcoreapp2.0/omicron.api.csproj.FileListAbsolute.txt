@@ -1,0 +1,16 @@
+/home/ricardo/Git/omicron/omicron.api/obj/Debug/netcoreapp2.0/omicron.api.csproj.CoreCompileInputs.cache
+/home/ricardo/Git/omicron/omicron.api/obj/Debug/netcoreapp2.0/omicron.api.AssemblyInfoInputs.cache
+/home/ricardo/Git/omicron/omicron.api/obj/Debug/netcoreapp2.0/omicron.api.AssemblyInfo.cs
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.api.deps.json
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.api.runtimeconfig.json
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.api.runtimeconfig.dev.json
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.api.dll
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.api.pdb
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.domain.dll
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.infra.dll
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.domain.pdb
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.infra.pdb
+/home/ricardo/Git/omicron/omicron.api/obj/Debug/netcoreapp2.0/omicron.api.dll
+/home/ricardo/Git/omicron/omicron.api/obj/Debug/netcoreapp2.0/omicron.api.pdb
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.services.dll
+/home/ricardo/Git/omicron/omicron.api/bin/Debug/netcoreapp2.0/omicron.services.pdb

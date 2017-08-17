@@ -1,0 +1,10 @@
+/home/ricardo/Git/omicron/omicron.infra/bin/Debug/netstandard2.0/omicron.infra.deps.json
+/home/ricardo/Git/omicron/omicron.infra/bin/Debug/netstandard2.0/omicron.infra.dll
+/home/ricardo/Git/omicron/omicron.infra/bin/Debug/netstandard2.0/omicron.infra.pdb
+/home/ricardo/Git/omicron/omicron.infra/obj/Debug/netstandard2.0/omicron.infra.csproj.CoreCompileInputs.cache
+/home/ricardo/Git/omicron/omicron.infra/obj/Debug/netstandard2.0/omicron.infra.AssemblyInfoInputs.cache
+/home/ricardo/Git/omicron/omicron.infra/obj/Debug/netstandard2.0/omicron.infra.AssemblyInfo.cs
+/home/ricardo/Git/omicron/omicron.infra/obj/Debug/netstandard2.0/omicron.infra.dll
+/home/ricardo/Git/omicron/omicron.infra/obj/Debug/netstandard2.0/omicron.infra.pdb
+/home/ricardo/Git/omicron/omicron.infra/bin/Debug/netstandard2.0/omicron.domain.dll
+/home/ricardo/Git/omicron/omicron.infra/bin/Debug/netstandard2.0/omicron.domain.pdb

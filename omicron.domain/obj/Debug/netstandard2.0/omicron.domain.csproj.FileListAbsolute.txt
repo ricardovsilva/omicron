@@ -1,0 +1,8 @@
+/home/ricardo/Git/omicron/omicron.domain/bin/Debug/netstandard2.0/omicron.domain.deps.json
+/home/ricardo/Git/omicron/omicron.domain/bin/Debug/netstandard2.0/omicron.domain.dll
+/home/ricardo/Git/omicron/omicron.domain/bin/Debug/netstandard2.0/omicron.domain.pdb
+/home/ricardo/Git/omicron/omicron.domain/obj/Debug/netstandard2.0/omicron.domain.csproj.CoreCompileInputs.cache
+/home/ricardo/Git/omicron/omicron.domain/obj/Debug/netstandard2.0/omicron.domain.AssemblyInfoInputs.cache
+/home/ricardo/Git/omicron/omicron.domain/obj/Debug/netstandard2.0/omicron.domain.AssemblyInfo.cs
+/home/ricardo/Git/omicron/omicron.domain/obj/Debug/netstandard2.0/omicron.domain.dll
+/home/ricardo/Git/omicron/omicron.domain/obj/Debug/netstandard2.0/omicron.domain.pdb

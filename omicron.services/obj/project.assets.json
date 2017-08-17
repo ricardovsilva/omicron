@@ -18,31 +18,33 @@
           "lib/netstandard1.6/HtmlAgilityPack.dll": {}
         }
       },
-      "Microsoft.CSharp/4.0.1": {
+      "HtmlAgilityPack.NetCore/1.5.0.1": {
         "type": "package",
         "dependencies": {
           "System.Collections": "4.0.11",
           "System.Diagnostics.Debug": "4.0.11",
-          "System.Dynamic.Runtime": "4.0.11",
-          "System.Globalization": "4.0.11",
           "System.Linq": "4.1.0",
-          "System.Linq.Expressions": "4.1.0",
-          "System.ObjectModel": "4.0.12",
-          "System.Reflection": "4.1.0",
-          "System.Reflection.Extensions": "4.0.1",
-          "System.Reflection.Primitives": "4.0.1",
-          "System.Reflection.TypeExtensions": "4.1.0",
-          "System.Resources.ResourceManager": "4.0.1",
           "System.Runtime": "4.1.0",
           "System.Runtime.Extensions": "4.1.0",
           "System.Runtime.InteropServices": "4.1.0",
-          "System.Threading": "4.0.11"
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.XPath": "4.0.1"
         },
         "compile": {
-          "ref/netstandard1.0/Microsoft.CSharp.dll": {}
+          "lib/netstandard1.3/HtmlAgilityPack.NetCore.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.CSharp.dll": {}
+          "lib/netstandard1.3/HtmlAgilityPack.NetCore.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/Microsoft.CSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1428,6 +1430,22 @@
         "runtime": {
           "bin/placeholder/omicron.domain.dll": {}
         }
+      },
+      "omicron.infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HtmlAgilityPack": "1.5.1",
+          "RestSharp.NetCore": "105.2.3",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "omicron.domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/omicron.infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/omicron.infra.dll": {}
+        }
       }
     }
   },
@@ -1469,18 +1487,31 @@
         "readme.txt"
       ]
     },
-    "Microsoft.CSharp/4.0.1": {
-      "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
+    "HtmlAgilityPack.NetCore/1.5.0.1": {
+      "sha512": "UaLQtf8QMM1cxUDPMMBcrgX3A/56P+y4mHidgWaoiieaEG9eyODVRIKt6cQtBZaHLOVX3abGdMGVk2RnlWUAOw==",
       "type": "package",
-      "path": "microsoft.csharp/4.0.1",
+      "path": "htmlagilitypack.netcore/1.5.0.1",
       "files": [
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "htmlagilitypack.netcore.1.5.0.1.nupkg.sha512",
+        "htmlagilitypack.netcore.nuspec",
+        "lib/net45/HtmlAgilityPack.NetCore.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.NetCore.dll"
+      ]
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "sha512": "vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "type": "package",
+      "path": "microsoft.csharp/4.4.0",
+      "files": [
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/win8/_._",
         "lib/wp80/_._",
@@ -1489,7 +1520,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.0.1.nupkg.sha512",
+        "microsoft.csharp.4.4.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1505,6 +1536,7 @@
         "ref/netcore50/ru/Microsoft.CSharp.xml",
         "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
         "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.0/Microsoft.CSharp.dll",
         "ref/netstandard1.0/Microsoft.CSharp.xml",
         "ref/netstandard1.0/de/Microsoft.CSharp.xml",
@@ -1516,6 +1548,8 @@
         "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
         "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
         "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
         "ref/portable-net45+win8+wp8+wpa81/_._",
         "ref/win8/_._",
         "ref/wp80/_._",
@@ -1523,7 +1557,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -5165,15 +5201,21 @@
       "type": "project",
       "path": "../omicron.domain/omicron.domain.csproj",
       "msbuildProject": "../omicron.domain/omicron.domain.csproj"
+    },
+    "omicron.infra/1.0.0": {
+      "type": "project",
+      "path": "../omicron.infra/omicron.infra.csproj",
+      "msbuildProject": "../omicron.infra/omicron.infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "HtmlAgilityPack >= 1.5.1",
+      "HtmlAgilityPack.NetCore >= 1.5.0.1",
+      "Microsoft.CSharp >= 4.4.0",
       "NETStandard.Library >= 2.0.0",
-      "RestSharp.NetCore >= 105.2.3",
-      "System.Runtime.Serialization.Formatters >= 4.3.0",
-      "omicron.domain >= 1.0.0"
+      "omicron.domain >= 1.0.0",
+      "omicron.infra >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5183,11 +5225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ricardo/Git/omicron/omicron.infra/omicron.infra.csproj",
-      "projectName": "omicron.infra",
-      "projectPath": "/home/ricardo/Git/omicron/omicron.infra/omicron.infra.csproj",
+      "projectUniqueName": "/home/ricardo/Git/omicron/omicron.services/omicron.services.csproj",
+      "projectName": "omicron.services",
+      "projectPath": "/home/ricardo/Git/omicron/omicron.services/omicron.services.csproj",
       "packagesPath": "/home/ricardo/.nuget/packages/",
-      "outputPath": "/home/ricardo/Git/omicron/omicron.infra/obj/",
+      "outputPath": "/home/ricardo/Git/omicron/omicron.services/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5206,6 +5248,9 @@
           "projectReferences": {
             "/home/ricardo/Git/omicron/omicron.domain/omicron.domain.csproj": {
               "projectPath": "/home/ricardo/Git/omicron/omicron.domain/omicron.domain.csproj"
+            },
+            "/home/ricardo/Git/omicron/omicron.infra/omicron.infra.csproj": {
+              "projectPath": "/home/ricardo/Git/omicron/omicron.infra/omicron.infra.csproj"
             }
           }
         }
@@ -5225,13 +5270,13 @@
             "version": "2.0.0",
             "autoReferenced": true
           },
-          "RestSharp.NetCore": {
+          "Microsoft.CSharp": {
             "target": "Package",
-            "version": "105.2.3"
+            "version": "4.4.0"
           },
-          "System.Runtime.Serialization.Formatters": {
+          "HtmlAgilityPack.NetCore": {
             "target": "Package",
-            "version": "4.3.0"
+            "version": "1.5.0.1"
           },
           "HtmlAgilityPack": {
             "target": "Package",
