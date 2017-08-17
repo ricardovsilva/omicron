@@ -9,7 +9,7 @@ Simple github trending repository system developed with .net core + vscode in ub
 Create a MVC project that shows data about trending repositories. Data shown will be today trending repositories, trending repositories of week, ranking up and down for each repository, trending languages.
 
 ## How am I planning to do that?
-Scrapping trending repositories from Github using [Trending Page](https://github.com/trending) and (Git Repos API)[https://developer.github.com/v3/repos/].
+Scrapping trending repositories from Github using [Trending Page](https://github.com/trending) and [Git Repos API](https://developer.github.com/v3/repos/)
 - To scrap trending page I'm using [Html Agility Pack](http://html-agility-pack.net/)
 - To communicate with Git API I'm using [RestSharp](http://restsharp.org)
 I will scrap daily data and save that in a database (not defined yet).
