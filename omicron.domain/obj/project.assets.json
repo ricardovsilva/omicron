@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "M1ZvYkpzaxQfU0+qCSjlCxxU61M2WFJdcg8wYEq2tOBcS/PGbC4Vwn+MbG/zhEROpQjVNYPFkFDPHl2nQpFayg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -177,29 +177,31 @@
     ]
   },
   "packageFolders": {
-    "/home/ricardo/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\t_blendit.ricardos\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ricardo/Git/omicron/omicron.domain/omicron.domain.csproj",
+      "projectUniqueName": "c:\\git\\omicron\\omicron.domain\\omicron.domain.csproj",
       "projectName": "omicron.domain",
-      "projectPath": "/home/ricardo/Git/omicron/omicron.domain/omicron.domain.csproj",
-      "packagesPath": "/home/ricardo/.nuget/packages/",
-      "outputPath": "/home/ricardo/Git/omicron/omicron.domain/obj/",
+      "projectPath": "c:\\git\\omicron\\omicron.domain\\omicron.domain.csproj",
+      "packagesPath": "C:\\Users\\t_blendit.ricardos\\.nuget\\packages\\",
+      "outputPath": "c:\\git\\omicron\\omicron.domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/ricardo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\t_blendit.ricardos\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\t_blendit.ricardos\\.dotnet\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://ceabs.pkgs.visualstudio.com/_packaging/CEABS-Nuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
