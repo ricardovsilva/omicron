@@ -12,7 +12,7 @@ namespace omicron.api.modules
         {
             this.gitService = gitService;
 
-            Get("/trending", _ => { return Response.AsJson(gitService.GetTrendingAsync().Result); });
+            Get("/trending", _ => { return Response.AsJson(gitService.GetTrending()); });
         }
     }
 }

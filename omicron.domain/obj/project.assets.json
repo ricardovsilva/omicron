@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\git\\omicron\\omicron.domain\\omicron.domain.csproj",
+      "projectUniqueName": "C:\\git\\omicron\\omicron.domain\\omicron.domain.csproj",
       "projectName": "omicron.domain",
-      "projectPath": "c:\\git\\omicron\\omicron.domain\\omicron.domain.csproj",
+      "projectPath": "C:\\git\\omicron\\omicron.domain\\omicron.domain.csproj",
       "packagesPath": "C:\\Users\\t_blendit.ricardos\\.nuget\\packages\\",
-      "outputPath": "c:\\git\\omicron\\omicron.domain\\obj\\",
+      "outputPath": "C:\\git\\omicron\\omicron.domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

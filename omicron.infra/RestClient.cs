@@ -12,7 +12,7 @@ namespace omicron.infra
             this.client = new RestSharp.RestClient(baseUrl);
         }
 
-        public async Task<TOutput> GetAsync<TOutput>(string url, object parameters) where TOutput : new()
+        public TOutput Get<TOutput>(string url, object parameters) where TOutput : new()
         {
             var request = new RestRequest(url) { Method = Method.GET };
             request.AddHeader("User-Agent", "omicron");

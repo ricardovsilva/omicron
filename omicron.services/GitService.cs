@@ -6,27 +6,32 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using omicron.services.model;
+using omicron.domain.repositories;
 
 namespace omicron.services
 {
     public class GitService : IGitService
     {
         private readonly IRestClient gitClient;
+        private readonly IScraper gitScraper;
+        private readonly IGitRepoRepository gitRepoRepository;
 
-        public IScraper gitScraper { get; }
-
-        public GitService(IRestClient gitClient, IScraper gitScraper)
+        public GitService(IRestClient gitClient, IScraper gitScraper, IGitRepoRepository gitRepoRepository)
         {
             this.gitClient = gitClient;
             this.gitScraper = gitScraper;
+            this.gitRepoRepository = gitRepoRepository;
         }
         
-        public async Task<List<GitRepo>> GetTrendingAsync(int quantity = 20)
+        public List<GitRepo> GetTrending(int quantity = 20)
         {
-            var trendingRepositories = ScrapTrending();
+            var trendingRepositories = this.gitRepoRepository.GetTodayTrending().ToList();
+            if(trendingRepositories.Any()) return trendingRepositories;
+
+            trendingRepositories = ScrapTrending();
             foreach(var repository in trendingRepositories)
             {
-                var repositoryDetails = gitClient.GetAsync<GitRepoResponse>($"/repos/{repository.FullName}").Result;
+                var repositoryDetails = gitClient.Get<GitRepoResponse>($"/repos/{repository.FullName}");
                 repository.Id = repositoryDetails.id;
                 repository.Name = repositoryDetails.name;
                 repository.Stars = repositoryDetails.watchers_count;

@@ -6,6 +6,6 @@ namespace omicron.services.interfaces
 {
     public interface IGitService
     {
-         Task<List<GitRepo>> GetTrendingAsync(int quantity = 20);
+         List<GitRepo> GetTrending(int quantity = 20);
     }
 }
