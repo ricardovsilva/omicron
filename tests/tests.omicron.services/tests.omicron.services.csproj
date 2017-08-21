@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02"/>
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18"/>
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18"/>
+    <PackageReference Include="FluentAssertions" Version="4.19.3"/>
+    <PackageReference Include="AutoMoq" Version="2.0.0"/>
+    <PackageReference Include="Bogus" Version="15.0.7"/>
+    <PackageReference Include="AutoBogus.Moq" Version="1.0.0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\omicron.services\omicron.services.csproj"/>
+    <ProjectReference Include="..\..\omicron.infra\omicron.infra.csproj"/>
+    <ProjectReference Include="..\..\omicron.domain\omicron.domain.csproj"/>
+  </ItemGroup>
+</Project>
